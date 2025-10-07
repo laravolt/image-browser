@@ -1,4 +1,4 @@
-[![Release](https://img.shields.io/github/v/release/laravolt/image)](https://github.com/laravolt/image/releases)
+[![Release](https://img.shields.io/github/v/release/laravolt/image-browser)](https://github.com/laravolt/image-browser/releases)
 
 ## Introduction
 
@@ -6,4 +6,4 @@ Docker image for easier deployment of high-performance Laravolt applications wit
 
 ## Compiled Image
 
-Check the compiled image on Docker Hub: [https://hub.docker.com/r/laravoltdev/image](https://hub.docker.com/r/laravoltdev/image)
+Check the compiled image on Docker Hub: [https://hub.docker.com/r/laravoltdev/image-browser](https://hub.docker.com/r/laravoltdev/image-browser)

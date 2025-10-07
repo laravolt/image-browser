@@ -28,7 +28,7 @@ USER www-data
 COPY package.json /var/www/html/package.json
 
 RUN composer global config allow-plugins.gmta/composer-velocita true && \
-    composer global require gmta/composer-velocita \
+    composer global require gmta/composer-velocita && \
     npm install playwright@latest && npx playwright install
 
 # Copy shell configuration
