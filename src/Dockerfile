@@ -19,7 +19,9 @@ COPY shell/aliases.sh /root/.aliases.sh
 COPY shell/bashrc /root/.bashrc
 
 RUN mkdir /var/www/.npm && \
+    mkdir /var/www/.cache && \
     chown -R 33:33 "/var/www/.npm"
+    chown -R 33:33 "/var/www/.cache"
 
 # Clean up
 RUN rm -rf /var/lib/apt/lists/* && \
