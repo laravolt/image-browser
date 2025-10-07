@@ -18,7 +18,8 @@ COPY 40-laravolt-link.sh /etc/entrypoint.d/
 COPY shell/aliases.sh /root/.aliases.sh
 COPY shell/bashrc /root/.bashrc
 
-RUN chown -R 33:33 "/var/www/.npm"
+RUN mkdir /var/www/.npm && \
+    chown -R 33:33 "/var/www/.npm"
 
 # Clean up
 RUN rm -rf /var/lib/apt/lists/* && \
