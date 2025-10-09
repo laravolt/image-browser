@@ -1,5 +1,5 @@
 ARG PHP_VERSION='8.4'
-ARG BASE_IMAGE="serversideup/php-dev:283-${PHP_VERSION}-frankenphp"
+ARG BASE_IMAGE="serversideup/php:beta-${PHP_VERSION}-frankenphp"
 
 FROM ${BASE_IMAGE}
 
